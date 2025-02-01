@@ -140,13 +140,29 @@ However not all records are full, but this is not due to missing values. For exa
 
 
 ## Three plots for dataset
+Probability analysis
+We are more likely to recall the first positions than the last positions of items in a list
+However we are more likely to recall the last positions more than middle positions
+![alt text](<Pasted image.png>)
 
+This is reinforced based on variations of sorting methods
+Strict sorting vs murdock sorting
+![alt text](<Pasted image (2).png>) vs ![alt text](<Pasted image (3).png>)
+with strict sorting the probability of recalling the following item decreases rapidly. This aligns with probability theory. If given event a and event b. Its always more likely that event a occurs more than both event a and event b occur. So strict sorting reinforces what we already know about probability
+Removing the strict sorting reveals a different picture. The first and last items are equally probable to be remembered, if we don't consider order of recall.
+
+Note taking is highly emphasized in class-room settings. Though in my experience, we rarely go back and review those same notes. This data also helps explore whether this practice is useful or not.
+![alt text](image-9.png)
+Separating people out based on whether they took notes or did not take notes to remember what items were in the list gives interesting results.
+Those who didn't take notes and thus actively paid attention to the list recital had better recall of the list than those who wrote notes(probably because they were distracted and thus had their attention split between hearing and processes those cues into motor control)
 
 ## Insights / Summarization
 - Subjects who took notes ended up having poorer recall
     - (so it would seem to me, that taking notes in this case served as a distraction. So we can likely conclude that taking notes does not help to improve memory)
 
+- Reinforcement of the Serial-Position Effect first discovered in 1962
 
+Though I'm a bit cautious of the applicability of the study. As the data is only a short-term set, we aren't testing recall over repititions, and especially not over an extended multi-year test.
 
 # Dataset 2
 ## Description
