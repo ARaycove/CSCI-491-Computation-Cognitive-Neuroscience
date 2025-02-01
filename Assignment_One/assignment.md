@@ -249,6 +249,8 @@ Main insight, this region (the parietal lobe) plays a role in the retrieval of m
 
 ____________________________________________________________________________
 # QUESTIONS
+The project I've started about one year ago, would be an attempt to test repitition and recall over the span of years, not just days, weeks, at most months, as most studies do. The goal would be to compile a list of unknowns in the current body of research, and develop this software in such a way that can effectively collect data and use that data to give better answers to these unknowns. More so, developing the current body of research into software that can be distributed allows us to test our conclusions over the long term.
+
 When generating a system to reinforce the ability to actively recall any piece of information at a fine level of detail: We have some key questions to ask.
 
 How does the order in which information is presented and asked to be recalled in effect the ability to recall? Relating to studies on serial position effect
