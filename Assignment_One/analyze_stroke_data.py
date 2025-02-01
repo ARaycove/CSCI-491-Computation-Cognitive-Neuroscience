@@ -105,37 +105,37 @@ print(f"##############")
 print(f"Unrecorded BMI total has_had_stroke:    {na_strokes:*^25}")
 print(f"Unrecorded BMI total has_not_had_stroke:{na_not_strokes:*^25}")
 print_graphs = False
-if True:
-    # Mean and std_dev
-    box_plot_data_two = [[bmi_stroke_mean, bmi_stroke_std_dev], [bmi_not_stroke_mean, bmi_not_stroke_std_dev]]
-    plt.boxplot(box_plot_data_two)
-    plt.show()
-    # Spit out Box plot
-    box_plot_data = [bmi_stroke_values, bmi_not_stroke_values]
-    plt.boxplot(box_plot_data)
-    plt.show()
-if False:
-    # Plot histogram age_distributions
-    fig, axs = plt.subplots(1, 2, sharey=True, tight_layout=True)
-    axs[0].hist(age_stroke_values, bins=30)
-    axs[1].hist(age_not_stroke_values, bins=30)
-    plt.show()
-if False:
+# if True:
+#     # Mean and std_dev
+#     box_plot_data_two = [[bmi_stroke_mean, bmi_stroke_std_dev], [bmi_not_stroke_mean, bmi_not_stroke_std_dev]]
+#     plt.boxplot(box_plot_data_two)
+#     plt.savefig("Mean and Std Deviation")
+#     # Spit out Box plot
+#     box_plot_data = [bmi_stroke_values, bmi_not_stroke_values]
+#     plt.boxplot(box_plot_data)
+#     plt.savefig("Raw Data stroke-no-stroke")
+# if True:
+#     # Plot histogram age_distributions
+#     fig, axs = plt.subplots(1, 2, sharey=True, tight_layout=True)
+#     axs[0].hist(age_stroke_values, bins=30)
+#     axs[1].hist(age_not_stroke_values, bins=30)
+#     plt.savefig("Age Distribution")
+# if True:
     # Plot density plot age dist / stroke - no stroke
-    sns.kdeplot(age_stroke_values)
-    plt.show()
-    sns.kdeplot(age_not_stroke_values)
-    plt.show()
-if False:
+    # sns.kdeplot(age_stroke_values)
+    # plt.savefig("Density - Stroke Values")
+    # sns.kdeplot(age_not_stroke_values)
+    # plt.savefig("Density - Not Stroke Values")
+# if True:
     # Plot density plots by gender/stroke (4 graphs)
-    sns.kdeplot(age_male_stroke_values)
-    plt.show()
-    sns.kdeplot(age_female_stroke_values)
-    plt.show()
-    sns.kdeplot(age_male_not_stroke_values)
-    plt.show()
-    sns.kdeplot(age_female_not_stroke_values)
-    plt.show()
+    # sns.kdeplot(age_male_stroke_values)
+    # plt.savefig("Age - Male - Stroke Values")
+    # sns.kdeplot(age_female_stroke_values)
+    # plt.savefig("Age - Female - Stroke Values")
+    # sns.kdeplot(age_male_not_stroke_values)
+    # plt.savefig("Age - Male - No-Stroke Values")
+    # sns.kdeplot(age_female_not_stroke_values)
+    # plt.savefig("Age - Female - No-Stroke Values")
 
 
 
